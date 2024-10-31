@@ -17,4 +17,4 @@ The official PyTorch implementation of our paper:
 
 ## Acknowledgement
 
-Code is largely based on Mask2Former (https://github.com/facebookresearch/Mask2Former).
+Code is largely based on M2FP (https://github.com/soeaver/M2FP).
