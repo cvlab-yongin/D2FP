@@ -1,0 +1,3 @@
+./train.sh
+
+./test.sh
