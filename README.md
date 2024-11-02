@@ -16,7 +16,6 @@ The official PyTorch implementation of our paper:
   PyTorch version matches that is required by Detectron2.
 - Detectron2: follow [Detectron2 installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
 - OpenCV is optional but needed by demo and visualization
-- `pip install -r requirements.txt`
 
 ### CUDA kernel for MSDeformAttn
 After preparing the required environment, run the following command to compile CUDA kernel for MSDeformAttn:
@@ -33,6 +32,9 @@ To build on a system that does not have a GPU device but provide the drivers:
 ```bash
 TORCH_CUDA_ARCH_LIST='8.0' FORCE_CUDA=1 python setup.py build install
 ```
+
+### Download pretrained weights
+Download the `R-103.pkl` weights from the official website https://github.com/facebookresearch/MaskFormer/blob/main/MODEL_ZOO.md and place it in `D2FP/weights/R-103.pkl`
 
 ## Datasets
 
@@ -65,10 +67,21 @@ cihp/
     Human_ids/
 ```
 
-
 ## Training
 
+Please set the number of GPUs and adjust the configuration as needed.
+
+```
+./train.sh
+```
+
 ## Evaluation 
+
+Please set the number of GPUs and adjust the configuration as needed.
+
+```
+./test.sh
+```
 
 ## Acknowledgement
 
