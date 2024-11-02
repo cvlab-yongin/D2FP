@@ -1,7 +1,5 @@
 # D2FP
 
-Code will be released soon.
-
 The official PyTorch implementation of our paper:
 
 > **D2FP: Learning Implicit Prior for Human Parsing** \
