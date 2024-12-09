@@ -7,7 +7,7 @@ The official PyTorch implementation of our paper:
 > **D2FP: Learning Implicit Prior for Human Parsing** \
 > Junyoung Hong, Hyeri Yang, Ye Ju Kim, Haerim Kim, Shinwoong Kim, Euna Shim, Kyungjae Lee
 
-![image](https://github.com/user-attachments/assets/093bb53f-dcb7-46d6-aa3a-c8ce8098a20f)
+![overview-1](https://github.com/user-attachments/assets/ae493e56-e126-435a-8ceb-c751acec4741)
 
 ## Installation
 
