@@ -37,7 +37,7 @@ Download the `R-103.pkl` weights from the official website https://github.com/fa
 
 ## Datasets
 
-Please set the environment variable `DETECTRON2_DATASETS` and place the downloaded datasets in the following structure within the defined path. The official website where the dataset can be obtained is https://sysu-hcp.net/lip/overview.php.
+Set the DETECTRON2_DATASETS environment variable and organize the downloaded datasets in the following directory structure within the specified path. You can download the dataset from the official website: https://sysu-hcp.net/lip/overview.php.
 
 ### Expected dataset structure for LIP:
 
@@ -68,7 +68,7 @@ cihp/
 
 ## Training
 
-Please set the number of GPUs and adjust the configuration as needed.
+Set the number of GPUs and customize the configuration as needed.
 
 ```
 ./train.sh
@@ -76,12 +76,11 @@ Please set the number of GPUs and adjust the configuration as needed.
 
 ## Evaluation 
 
-Please set the number of GPUs and adjust the configuration as needed.
+Set the number of GPUs and customize the configuration as needed.
 
 ```
 ./test.sh
 ```
-
 ## Acknowledgement
 
 Code is largely based on M2FP (https://github.com/soeaver/M2FP).
