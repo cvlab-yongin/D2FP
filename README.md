@@ -1,15 +1,12 @@
-# D2FP
+# D2FP: Learning Implicit Prior for Human Parsing
 
-## Overview
+This the official code for D2FP: Learning Implicit Prior for Human Parsing.
 
-The official PyTorch implementation of our paper:
+* [Paper (Comming Soon)]
 
-> **D2FP: Learning Implicit Prior for Human Parsing** \
-> Junyoung Hong, Hyeri Yang, Ye Ju Kim, Haerim Kim, Shinwoong Kim, Euna Shim, Kyungjae Lee
+This codebase is implemented using [Detectron2](https://github.com/facebookresearch/detectron2).
 
-![overview-1](https://github.com/user-attachments/assets/ae493e56-e126-435a-8ceb-c751acec4741)
-
-## Installation
+## Setup
 
 ### Requirements
 - Linux or macOS with Python ≥ 3.6
@@ -40,7 +37,7 @@ Download the `R-103.pkl` weights from the official website https://github.com/fa
 
 ## Datasets
 
-Please set the environment variable `DETECTRON2_DATASETS` and place the downloaded datasets in the following structure within the defined path. The official website where the dataset can be obtained is https://sysu-hcp.net/lip/overview.php.
+Set the DETECTRON2_DATASETS environment variable and organize the downloaded datasets in the following directory structure within the specified path. You can download the dataset from the official website: https://sysu-hcp.net/lip/overview.php.
 
 ### Expected dataset structure for LIP:
 
@@ -71,7 +68,7 @@ cihp/
 
 ## Training
 
-Please set the number of GPUs and adjust the configuration as needed.
+Set the number of GPUs and customize the configuration as needed.
 
 ```
 ./train.sh
@@ -79,12 +76,11 @@ Please set the number of GPUs and adjust the configuration as needed.
 
 ## Evaluation 
 
-Please set the number of GPUs and adjust the configuration as needed.
+Set the number of GPUs and customize the configuration as needed.
 
 ```
 ./test.sh
 ```
-
 ## Acknowledgement
 
 Code is largely based on M2FP (https://github.com/soeaver/M2FP).
