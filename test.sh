@@ -6,5 +6,5 @@ python train_net.py \
 	--num-gpus 2 \
 	--config configs/lip/$exp_name.yaml \
 	--eval-only \
-	MODEL.WEIGHTS training_dir/lip/$exp_name/model_best.pth \
+	MODEL.WEIGHTS ./weights/lip.pth \
 
