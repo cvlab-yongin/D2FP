@@ -1,15 +1,12 @@
-# D2FP
+# D2FP: Learning Implicit Prior for Human Parsing
 
-## Overview
+This the official code for D2FP: Learning Implicit Prior for Human Parsing.
 
-The official PyTorch implementation of our paper:
+* [Paper (Comming Soon)]
 
-> **D2FP: Learning Implicit Prior for Human Parsing** \
-> Junyoung Hong, Hyeri Yang, Ye Ju Kim, Haerim Kim, Shinwoong Kim, Euna Shim, Kyungjae Lee
+This codebase is implemented using [Detectron2](https://github.com/facebookresearch/detectron2).
 
-![overview-1](https://github.com/user-attachments/assets/ae493e56-e126-435a-8ceb-c751acec4741)
-
-## Installation
+## Setup
 
 ### Requirements
 - Linux or macOS with Python ≥ 3.6
