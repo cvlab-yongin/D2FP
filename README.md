@@ -73,7 +73,7 @@ cihp/
 Set the number of GPUs and customize the configuration as needed.
 
 ```
-./train.sh
+./scripts/train.sh
 ```
 
 ## Evaluation 
@@ -81,7 +81,7 @@ Set the number of GPUs and customize the configuration as needed.
 Set the number of GPUs and customize the configuration as needed.
 
 ```
-./test.sh
+./scripts/test.sh
 ```
 ## Acknowledgement
 
