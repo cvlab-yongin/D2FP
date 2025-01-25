@@ -6,6 +6,8 @@ This the official code for D2FP: Learning Implicit Prior for Human Parsing.
 
 This codebase is implemented using [Detectron2](https://github.com/facebookresearch/detectron2).
 
+![Image](https://github.com/user-attachments/assets/6609de2b-604e-435d-84c0-847a198a73f6)
+
 ## Setup
 
 ### Requirements
