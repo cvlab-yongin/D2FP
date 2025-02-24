@@ -84,3 +84,19 @@ Set the number of GPUs and customize the configuration as needed.
 ## Acknowledgement
 
 Code is largely based on M2FP (https://github.com/soeaver/M2FP).
+
+## Citing
+
+If you find our work useful, please consider citing:
+
+```
+@InProceedings{Hong_2025_WACV,
+    author    = {Hong, Junyoung and Yang, Hyeri and Kim, Ye Ju and Kim, Haerim and Kim, Shinwoong and Shim, Euna and Lee, Kyungjae},
+    title     = {D2FP: Learning Implicit Prior for Human Parsing},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {9096-9106}
+}
+```
+
