@@ -85,9 +85,6 @@ Set the number of GPUs and customize the configuration as needed.
 ```
 ./scripts/test.sh
 ```
-## Acknowledgement
-
-Code is largely based on M2FP (https://github.com/soeaver/M2FP).
 
 ## Citing
 
@@ -104,3 +101,6 @@ If you find our work useful, please consider citing:
 }
 ```
 
+## Acknowledgement
+
+Code is largely based on M2FP (https://github.com/soeaver/M2FP).
